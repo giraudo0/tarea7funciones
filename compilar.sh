@@ -11,5 +11,3 @@ g++ main.cpp funciones.cpp datos.cpp\
 echo "Ejecutando..."
 echo ""
 ./tarea7funciones
-echo ""
-echo "Fin"
