@@ -41,3 +41,13 @@ int min_arreglo(const int a[], const int tam)
 
   return min;
 }
+
+// Mínimo de un vector:
+int min_vector(vector<int> &vec)
+{
+  int min = vec[1];
+  for(int i=1; i < vec.size(); i++)
+    if(vec[i] < min)
+      min = vec[i];
+  return min;
+}
