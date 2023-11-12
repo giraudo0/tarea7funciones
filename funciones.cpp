@@ -66,8 +66,19 @@ double media_arreglo(const int a[], const int tam)
   return med;
 }
 
-/* Nota:
- * [1] El resultado debería ser el número real 582789.06; pero da el
- * número entero 582789, a pesar de sustituir ésta línea por alguna de
- * las líneas comentadas abajo.
+double media_vector(vector<int> &vec)
+{
+  double med = 0;
+  for(int i=0; i < vec.size(); i++)
+    med += vec[i];
+  med /= vec.size(); // [1]
+  //med /= (double)vec.size();
+  //med /= double(vec.size());
+  return med;
+}
+
+/* [1] Nota:
+ * El resultado debería ser el número real 582789.06; pero da el
+ * número entero 582789, a pesar de sustituir ésta línea por alguna
+ * de las líneas comentadas abajo.
  */

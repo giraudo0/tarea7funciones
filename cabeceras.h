@@ -18,6 +18,7 @@ int mult_arreglo(const int a[], int num, const int tam);
 int min_arreglo(const int a[], const int tam);
 int min_vector(vector<int> &vec);
 double media_arreglo(const int a[], const int tam);
+double media_vector(vector<int> &vec);
 
 // Problemas:
 void problema1(void);
