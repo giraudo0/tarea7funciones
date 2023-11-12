@@ -5,7 +5,7 @@
 
 void problema3(void)
 {
-  cout << "--- Mínimo en un arreglo o vector ---" << endl;
+  cout << "--- Mínimo de un arreglo o vector ---" << endl;
 
   // Mínimo del arreglo:
   cout << endl;

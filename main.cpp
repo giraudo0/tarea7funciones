@@ -27,9 +27,9 @@ int main(void)
     case 3:
       problema3();
       break;
-    /*case 4:
+    case 4:
       problema4();
-      break;*/
+      break;
     default:
       cout << "Opción incorrecta";
   }

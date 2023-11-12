@@ -51,3 +51,23 @@ int min_vector(vector<int> &vec)
       min = vec[i];
   return min;
 }
+
+// Media de un arreglo:
+double media_arreglo(const int a[], const int tam)
+{
+  double med = 0;
+  for(int i=0; i < tam; i++)
+    med += a[i];
+  med /= tam; // [1]
+  //med /= (double)tam;
+  //med /= double(tam);
+  //double cant = tam; med /= cant;
+  //double cant = double(tam); med /= cant;
+  return med;
+}
+
+/* Nota:
+ * [1] El resultado debería ser el número real 582789.06; pero da el
+ * número entero 582789, a pesar de sustituir ésta línea por alguna de
+ * las líneas comentadas abajo.
+ */
