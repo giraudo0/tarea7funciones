@@ -17,7 +17,7 @@ int cantmult(int num, int x, int y)
 }
 
 // Cantidad de múltiplos de un número en un arreglo:
-int multarreglo(int a[], int num, int tam)
+int multarreglo(const int a[], int num, const int tam)
 {
   int cantidad = 0;
   for(int i=0; i < tam; i++)

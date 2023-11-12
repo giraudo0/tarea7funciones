@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo "Compilando..."
-g++ main.cpp funciones.cpp\
+g++ main.cpp funciones.cpp datos.cpp\
   problema1.cpp \
   problema2.cpp \
   -o tarea7funciones
