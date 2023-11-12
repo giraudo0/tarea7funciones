@@ -13,6 +13,6 @@ void problema2(void)
   cin >> n;
 
   cout << endl << "En el arreglo hay ";
-  cout << multarreglo(arreglo, n, tamagno);
+  cout << mult_arreglo(arreglo, n, tamagno);
   cout << " múltiplos de " << n << "." << endl;
 }

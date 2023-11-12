@@ -16,7 +16,7 @@ void problema1(void)
   cin >> n2;
 
   // Resultado:
-  cout << endl << "Hay " << cantmult(n, n1, n2); // Llamada a la función
+  cout << endl << "Hay " << cant_mult(n, n1, n2); // Llamada a la función
   cout << " múltiplos de " << n;
   cout << " entre " << n1 << " y " << n2 << "." << endl;
 }

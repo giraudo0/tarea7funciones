@@ -3,7 +3,7 @@
 #include "cabeceras.h"
 
 // Cantidad de múltiplos de un número entre x y y:
-int cantmult(int num, int x, int y)
+int cant_mult(int num, int x, int y)
 {
   int cantidad = 0;
 
@@ -17,7 +17,7 @@ int cantmult(int num, int x, int y)
 }
 
 // Cantidad de múltiplos de un número en un arreglo:
-int multarreglo(const int a[], int num, const int tam)
+int mult_arreglo(const int a[], int num, const int tam)
 {
   int cantidad = 0;
   for(int i=0; i < tam; i++)

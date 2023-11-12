@@ -12,8 +12,8 @@ extern const int arreglo[];
  * de variable no inicializada. */
 
 // Funciones:
-int cantmult(int num, int x, int y);
-int multarreglo(const int a[], int num, const int tam);
+int cant_mult(int num, int x, int y);
+int mult_arreglo(const int a[], int num, const int tam);
 int min_arreglo(const int a[], const int tam);
 
 // Problemas:
