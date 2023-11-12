@@ -1,3 +1,5 @@
+/* Función main() acumula los cuatro problemas */
+
 #include "cabeceras.h"
 
 int main(void)
@@ -6,7 +8,7 @@ int main(void)
   
   cout << "Elija un número de problema:" << endl;
   cout << "1) Múltiplos entre dos números" << endl;
-  cout << "2) Múltiplos en un arreglo" << endl;
+  cout << "2) Múltiplos de n en un arreglo" << endl;
   cout << "3) Mínimo en un arreglo o vector" << endl;
   cout << "4) Media en un arreglo o vector" << endl;
   int opcion = 0;
@@ -19,10 +21,10 @@ int main(void)
     case 1:
       problema1();
       break;
-   /* case 2:
+    case 2:
       problema2();
       break;
-    case 3:
+    /*case 3:
       problema3();
       break;
     case 4:
