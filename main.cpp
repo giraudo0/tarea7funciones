@@ -24,10 +24,10 @@ int main(void)
     case 2:
       problema2();
       break;
-    /*case 3:
+    case 3:
       problema3();
       break;
-    case 4:
+    /*case 4:
       problema4();
       break;*/
     default:
