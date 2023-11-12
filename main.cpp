@@ -1,3 +1,4 @@
+// main.cpp
 /* Función main() acumula los cuatro problemas */
 
 #include "cabeceras.h"

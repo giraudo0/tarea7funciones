@@ -1,3 +1,4 @@
+// problema1.cpp
 /* 1. Función que devuelva la cantidad de múltiplos de n entre n1 y n2.
  * El valor de n, n1 y n2 se deben pasar como parámetro. */
 

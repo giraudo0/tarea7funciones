@@ -1,3 +1,4 @@
+// funciones.cpp
 /* Definición de funciones */
 
 #include "cabeceras.h"

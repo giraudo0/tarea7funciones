@@ -1,3 +1,4 @@
+// problema2.cpp
 /* 2. Función que devuelva cuantos elementos de un arreglo o vector son
  * múltiplos de n. Se debe pasar como parámetro el arreglo o vector y
  * devolver la cantidad de múltiplos de n. */

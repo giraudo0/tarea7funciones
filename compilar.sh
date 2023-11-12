@@ -1,4 +1,5 @@
 #!/bin/bash
+# compilar.sh
 clear
 echo "Compilando..."
 g++ main.cpp funciones.cpp datos.cpp\

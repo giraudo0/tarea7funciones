@@ -1,3 +1,4 @@
+// cabeceras.h
 // Evitar duplicidad de código:
 #pragma once
 
